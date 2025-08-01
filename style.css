@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: black;
+    width: 100%;
+    height: 100%;
+   
+}
+
+main {
+    margin-left: 100px;
+    margin-top: -23px;
+
+}
+
+main img {
+    width: 72px;
+    margin-top: 45px;
+    margin-bottom: 79px;
+
+}
+
+main h3 {
+    font-size: 22px;
+    margin-bottom: 31px;
+}
+
+main h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 15px;
+    inline-size: 332px;
+    margin-bottom: 21px;
+    margin-top: -10px;
+}
+
+.butao-carrinho {
+    border-radius: 18px;
+    width: 155px;
+    height: 35px;
+    background-color: #bade62;
+    border: none;
+    color: gray;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.butao-1 {
+    width: 47px;
+    height: 47px;
+    border-radius: 39px;
+    margin-top: 22px;
+    border: none;
+    background-color: #bade62;
+    cursor: pointer;
+
+}
+
+.butao-2 {
+    width: 47px;
+    height: 47px;
+    border-radius: 39px;
+    margin-top: 22px;
+    border: none;
+    background-color: #6b99b2;
+    margin-left: 8px;
+}
+
+.butao-3 {
+    width: 47px;
+    height: 47px;
+    border-radius: 39px;
+    margin-top: 22px;
+    border: none;
+    background-color: #d17789;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+h2 {
+    font-size: 174px;
+    display: flex;
+    margin-left: 40%;
+    margin-top: -30%;
+    color: gray;
+    opacity: 0.5;
+
+}
+
+.tenis {
+    width: 600px;
+    display: flex;
+    margin-left: 50%;
+    margin-top: -230px;
+    transform: rotate(-30deg);
+    filter: drop-shadow(30px 45px 40px #161616);
+    transition: 1s;
+
+}
+
+.trocar-efeito{
+opacity: 0;
+transform: rotate(-30deg) translateY(-25px);
+
+}
+
+.fundo-verde {
+    background: #bade62;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(62% 0%, 9000% 108%, -106% 122%, 0% 310%);
+    z-index: -1;
+}
+
+.butao-1:hover{
+    transform:translatey(-15px);
+    transition: 0.5s ease-in-out;
+}
+
+.butao-2:hover{
+    transform:translatey(-15px);
+    transition: 0.5s ease-in-out;
+}
+
+.butao-3:hover{
+    transform:translatey(-15px);
+    transition: 0.5s ease-in-out;
+}
+
+.butao-carrinho:hover{
+    background-color: chartreuse;
+     transition: 0.5s ease-in-out;
+}
+
